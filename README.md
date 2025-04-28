@@ -60,16 +60,13 @@ Manual creation of university class schedules is time-consuming and error-prone,
 
 ### 📱 App Preview
 
-> Place your screenshot files in a `screenshots/` folder at the repo root.
+![ClassMate Dashboard](screenshots/pic1.png)  
 
-![ClassMate Dashboard](screenshots/dashboard.png)  
-*Dashboard showing overall weekly routine and navigation.*
+![Generate Routine Screen](screenshots/pic2.png)  
 
-![Generate Routine Screen](screenshots/generate_routine.png)  
-*Admin interface for uploading data and generating the schedule.*
+![Teacher View](screenshots/pic3.png)  
 
-![Teacher View](screenshots/teacher_view.png)  
-*Teacher’s personalized view with class reminders.*
+![Teacher View](screenshots/pic4.png)  
 
 ---
 
