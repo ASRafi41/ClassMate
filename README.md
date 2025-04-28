@@ -10,16 +10,11 @@ An Android app to automate weekly class routine generation for the CSE Departmen
 1. [Overview](#overview)  
 2. [Features](#features)  
 3. [Tech Stack](#tech-stack)  
-4. [Getting Started](#getting-started)  
-   - [Prerequisites](#prerequisites)  
-   - [Installation](#installation)  
-   - [Running the App](#running-the-app)  
-5. [Usage](#usage)  
-6. [App Preview](#app-preview)  
-7. [Project Structure](#project-structure)  
-8. [Limitations & Future Work](#limitations--future-work)  
-9. [Contributors](#contributors)  
-10. [License](#license)  
+4. [Usage](#usage)  
+5. [App Preview](#app-preview)  
+6. [Project Structure](#project-structure)  
+7. [Limitations & Future Work](#limitations--future-work)  
+8. [Contributors](#contributors)  
 
 ---
 
