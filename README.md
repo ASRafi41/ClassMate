@@ -15,10 +15,11 @@ An Android app to automate weekly class routine generation for the CSE Departmen
    - [Installation](#installation)  
    - [Running the App](#running-the-app)  
 5. [Usage](#usage)  
-6. [Project Structure](#project-structure)  
-7. [Limitations & Future Work](#limitations--future-work)  
-8. [Contributors](#contributors)  
-9. [License](#license)  
+6. [App Preview](#app-preview)  
+7. [Project Structure](#project-structure)  
+8. [Limitations & Future Work](#limitations--future-work)  
+9. [Contributors](#contributors)  
+10. [License](#license)  
 
 ---
 
@@ -48,12 +49,12 @@ Manual creation of university class schedules is time-consuming and error-prone,
 
 - **Flutter** (frontend)  
 - **Dart** (business logic & greedy algorithm)  
-- **Firebase** (real-time database, authentication)  
+- **Firebase** (realtime database, authentication)  
 - **Excel file processing** for bulk input handling
 
 ---
 
-### 🏁 Getting Started
+### 🌿 Getting Started
 
 #### Prerequisites
 
@@ -67,3 +68,91 @@ Manual creation of university class schedules is time-consuming and error-prone,
    ```bash
    git clone https://github.com/<your-username>/ClassMate.git
    cd ClassMate
+   ```
+2. **Install dependencies**  
+   ```bash
+   flutter pub get
+   ```
+3. **Configure Firebase**  
+   - Download `google-services.json` for Android and place it into `android/app/`.  
+   - Ensure database rules allow read/write for authenticated users.
+
+#### Running the App
+
+```bash
+flutter run
+```
+
+Select your Android device or emulator. The app will prompt for OTP on first launch.
+
+---
+
+### 👻 Usage
+
+1. **Admin** uploads the four Excel input files via the “Upload Data” screen.  
+2. Tap **Generate Routine** to run the greedy-algorithm scheduler.  
+3. Review the auto-generated timetable; drag-and-drop to resolve any edge-case conflicts.  
+4. **Teachers/Students** log in via OTP to view their personalized weekly schedule and receive reminders.
+
+---
+
+### 📱 App Preview
+
+> Place your screenshot files in a `screenshots/` folder at the repo root.
+
+![ClassMate Dashboard](screenshots/dashboard.png)  
+*Dashboard showing overall weekly routine and navigation.*
+
+![Generate Routine Screen](screenshots/generate_routine.png)  
+*Admin interface for uploading data and generating the schedule.*
+
+![Teacher View](screenshots/teacher_view.png)  
+*Teacher’s personalized view with class reminders.*
+
+---
+
+### 📁 Project Structure
+
+```
+lib/
+├── main.dart            # App entry point
+├── models/              # Data models: Teacher, Room, Batch, GED
+├── services/            # Firebase, Excel-parser, Scheduler logic
+├── ui/
+│   ├── admin/           # Admin screens (upload, review)
+│   └── user/            # Teacher & student screens
+└── utils/               # Helper functions (OTP, notifications)
+android/                 # Android native config (including google-services.json)
+screenshots/             # UI screenshots referenced in README
+```
+
+---
+
+### ⚠️ Limitations & Future Work
+
+- Currently tailored to CSE Dept., Leading University. Porting requires re-configuring constraints.  
+- Requires stable internet (Firebase-backed).  
+- Edge-case room/teacher changes may need manual fixes.  
+
+**Planned enhancements:**  
+- Scalability across departments/institutions  
+- Offline mode for schedule viewing  
+- Exam scheduling, AI-based optimization  
+- Deeper integration with university MIS & push-notifications  
+
+---
+
+### 👥 Contributors
+
+- **Muhammad Nadim** (ID: 2122020018)  
+- **Abu Sufian Rafi** (ID: 2122020041)  
+- **Abid Hussen** (ID: 2122020052)  
+
+Supervised by Dipta Chandra Paul, Department of CSE, Leading University.
+
+---
+
+### 📄 License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
