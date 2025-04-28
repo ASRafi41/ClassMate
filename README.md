@@ -60,13 +60,13 @@ Manual creation of university class schedules is time-consuming and error-prone,
 
 ### 📱 App Preview
 
-![ClassMate Dashboard](screenshots/pic1.png)  
+![Picture 1](screenshots/pic1.png)  
 
-![Generate Routine Screen](screenshots/pic2.png)  
+![Picture 2](screenshots/pic2.png)  
 
-![Teacher View](screenshots/pic3.png)  
+![Picture 3](screenshots/pic3.png)  
 
-![Teacher View](screenshots/pic4.png)  
+![Picture 4](screenshots/pic4.png)  
 
 ---
 
