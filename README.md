@@ -130,7 +130,7 @@ screenshots/             # UI screenshots referenced in README
 
 ### ⚠️ Limitations & Future Work
 
-- Currently tailored to CSE Dept., Leading University. Porting requires re-configuring constraints.  
+- Currently tailored to CSE Department, Leading University. Porting requires re-configuring constraints.  
 - Requires stable internet (Firebase-backed).  
 - Edge-case room/teacher changes may need manual fixes.  
 
@@ -149,10 +149,3 @@ screenshots/             # UI screenshots referenced in README
 - **Abid Hussen** (ID: 2122020052)  
 
 Supervised by Dipta Chandra Paul, Department of CSE, Leading University.
-
----
-
-### 📄 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
