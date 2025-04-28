@@ -50,7 +50,7 @@ class DeveloperInfoPage extends StatelessWidget {
             const SizedBox(height: 16),
             _buildDeveloperCard(
               context: context,
-              imagePath: 'assets/Sufian.png', // Second image path
+              imagePath: 'assets/Sufian.jpg', // Second image path
               name: 'Abu Sufian Rafi',
               batch: '57',
               university: 'Leading University',
