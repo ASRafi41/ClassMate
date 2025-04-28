@@ -18,7 +18,7 @@ An Android app to automate weekly class routine generation for the CSE Departmen
 
 ---
 
-### 🌟 Overview {#overview}
+### 🌟 Overview
 
 Manual creation of university class schedules is time-consuming and error-prone, especially when balancing teacher availability, room assignments, and fixed General Education (GED) slots.  
 **ClassMate** automates this process using a greedy algorithm to produce conflict-free weekly routines, with an admin interface for tweaks and OTP-secure login for users.
