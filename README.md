@@ -27,7 +27,7 @@ Manual creation of university class schedules is time-consuming and error-prone,
 
 ### 🚀 Features
 
-- **Automated routine generation** using a greedy algorithm to allocate time-slots without conflicts.  
+- **Automated routine generation** using a greedy algorithm to allocate time-slots without conflicts while optimizing student workload balance (avoiding days with too many or too few classes).
 - **Input via Excel**:  
   1. Course distribution (teacher assignments + day-offs)  
   2. Room availability  
