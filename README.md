@@ -49,6 +49,16 @@ Manual creation of university class schedules is time-consuming and error-prone,
 
 ---
 
+### 📥 Download APK
+
+You can install the latest ClassMate Android build directly:
+
+[Download the APK](https://drive.google.com/file/d/1OamQ184axKycCmrUFNbxKOQ4m_PiLVjT/view?usp=drive_link)
+
+> **Note:** You may need to enable “Install unknown apps” in your device settings.
+
+---
+
 ### 👻 Usage
 
 1. **Admin** uploads the four Excel input files via the “Upload Data” screen.  
