@@ -7,7 +7,7 @@ An Android app to automate weekly class routine generation for the CSE Departmen
 
 ### 📖 Table of Contents
 
-1. [Overview](#overview)  
+1. [Overview](#-overview)  
 3. [Features](#features)  
 4. [Tech Stack](#tech-stack)  
 5. [Usage](#usage)  
