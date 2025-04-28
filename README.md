@@ -54,39 +54,6 @@ Manual creation of university class schedules is time-consuming and error-prone,
 
 ---
 
-### 🌿 Getting Started
-
-#### Prerequisites
-
-- Flutter SDK ≥ 3.x  
-- Android Studio (or VS Code + Android toolchain)  
-- A Firebase project with Realtime Database & Authentication enabled  
-
-#### Installation
-
-1. **Clone** this repo  
-   ```bash
-   git clone https://github.com/<your-username>/ClassMate.git
-   cd ClassMate
-   ```
-2. **Install dependencies**  
-   ```bash
-   flutter pub get
-   ```
-3. **Configure Firebase**  
-   - Download `google-services.json` for Android and place it into `android/app/`.  
-   - Ensure database rules allow read/write for authenticated users.
-
-#### Running the App
-
-```bash
-flutter run
-```
-
-Select your Android device or emulator. The app will prompt for OTP on first launch.
-
----
-
 ### 👻 Usage
 
 1. **Admin** uploads the four Excel input files via the “Upload Data” screen.  
